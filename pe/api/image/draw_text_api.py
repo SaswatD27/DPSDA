@@ -8,7 +8,7 @@ import os
 import traceback
 from collections import defaultdict
 
-from pe.api import API
+from pe.api.api import API
 from pe.logging import execution_logger
 from pe.data import Data
 from pe.constant.data import IMAGE_DATA_COLUMN_NAME

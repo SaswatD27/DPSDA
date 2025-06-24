@@ -5,7 +5,7 @@ import pandas as pd
 import tiktoken
 import numpy as np
 
-from pe.api import API
+from pe.api.api import API
 from pe.api.util import ConstantList
 from pe.logging import execution_logger
 from pe.data import Data
